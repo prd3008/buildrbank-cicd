@@ -10,6 +10,7 @@
 #
 # One repository variable, three secrets, and five lines that say
 # TODO. Fill those in and the pipeline is yours.
+# Changed for push
 # =================================================================
 name: Test, build, deploy
 
