@@ -113,7 +113,7 @@ jobs:
           # TODO 1 - the name of the secret holding your Docker Hub token.
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build it and push it
+      - name: Build it and push it -bb
         uses: docker/build-push-action@c3c9e263c25d99ce0380d002d59b67737d91b0dc  # v7.4.0
         with:
           context: .
