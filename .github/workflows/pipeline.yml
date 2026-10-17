@@ -123,7 +123,7 @@ jobs:
           push: true
           # TODO 2 - add a second tag under the first one, the commit's
           # own id:
-          #   ${{ env.DOCKERHUB_USER }}/${{ env.IMAGE }}:${{ github.sha }}
+          #      ${{ env.DOCKERHUB_USER }}/${{ env.IMAGE }}:${{ github.sha }}
           #
           # The first tag is the branch's own name - :main or :dev. It
           # moves every time you push to that branch, so it cannot take
